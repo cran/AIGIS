@@ -1,5 +1,5 @@
 
-ab.gmu <- function(gridgpcobj=gridgpc,gws=gridinws,afracs=gfracs, recvar = 1, recvals = bgvals, appdam=FALSE, trimmedin=TRUE, dr=damrats, maskobj=MASK){ 
+ab.gmu <- function(gridgpcobj=gridgpc,gws=gridinws, afracs, recvar = 1, recvals = bgvals, appdam=FALSE, trimmedin=TRUE, dr=damrats, maskobj=MASK){ 
    
    gtots <- sapply(gws, dp.interp, recvar = recvar, recvals = recvals, appdam=appdam, trimmedin=trimmedin, nobounds=TRUE, dr=dr)
    

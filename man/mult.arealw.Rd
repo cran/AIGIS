@@ -6,7 +6,7 @@
  Essentially a wrapper for \code{arealw}, allowing the user to retrieve areal weights for multiple target polygons over the same list of zonal polygons.  Permits calculations for all elements of a list of target polygons, or a those specified by vector indexing elements in that list.  Depending on the calling options, returns the result as a list or matrix.  
 }
 \usage{
-mult.arealw(target.ind = "all", targetlist = firepgpc, trimout = TRUE, 
+mult.arealw(target.ind = "all", targetlist, trimout = TRUE, 
   zones = cabggpc, zbbmat = cabgbbmat, zoneareas = rbgarea, twokcensus = TRUE,
   digits = 6, verbose = 2)
 }

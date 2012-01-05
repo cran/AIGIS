@@ -6,7 +6,7 @@
 For each 1/8 degree gridcell in California, estimate the expected value contained inside a fire perimeter of specified area.  Operates by finding the total value inside the gridcell and multiplying by the appropriate fraction, determined by a call to \code{area2frac}. 
 }
 \usage{
-ab.gmu(gridgpcobj = gridgpc, gws = gridinws, afracs = gfracs, recvar = 1, 
+ab.gmu(gridgpcobj = gridgpc, gws = gridinws, afracs, recvar = 1, 
   recvals = bgvals, appdam = FALSE, trimmedin = TRUE, dr = damrats, 
   maskobj = MASK)
 }

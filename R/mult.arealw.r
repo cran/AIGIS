@@ -3,7 +3,7 @@
 #mult.arealw: A wrapper for arealw, to get overlap weights for multiple polygons,
 #whose indices are specified by the vector target.ind
 
-mult.arealw <- function(target.ind="all", targetlist=firepgpc, trimout=TRUE, zones = cabggpc, zbbmat=cabgbbmat, zoneareas=rbgarea, twokcensus=TRUE, digits=6, verbose=2){
+mult.arealw <- function(target.ind="all", targetlist, trimout=TRUE, zones = cabggpc, zbbmat=cabgbbmat, zoneareas=rbgarea, twokcensus=TRUE, digits=6, verbose=2){
 
   lecall <- match.call()
 

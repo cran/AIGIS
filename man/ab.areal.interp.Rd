@@ -5,7 +5,7 @@
 \description{Given a list of target polygons, a list of zonal polygons, and a matrix of data associated with the zonal polygons, interpolate zonal polygon data to specified target polygons.  As a wrapper of \code{mult.arealw} and \code{dp.interp}, it generates areal weights as an intermediate product, which can also be returned if desired. This allows other variables in the data record to be interpolated to the same polygons without having to redo the costly weight-calculating step.
 }
 \usage{
-ab.areal.interp(target.ind = "all", targetlist = firepgpc, trim = TRUE, 
+ab.areal.interp(target.ind = "all", targetlist, trim = TRUE, 
   recvar = 1, recvals = bgvals, zones = cabggpc, zbbmat = cabgbbmat, 
   zoneareas = rbgarea, appdam = TRUE, dr = damrats, twokcensus = TRUE, 
   digits = 6, nobounds = FALSE, keepwts = TRUE, verbose = 2)

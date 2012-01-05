@@ -3,7 +3,7 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{A function to create a rectangular polygon from a vector of bounds}
 \description{
-Given a vector indicating minimum and maximum latitude and longitudes, creates a rectangular polygon of class \code{gpc.poly}, which can then be used by other areal weighting functions.   This is simply a very thin wrapper for \code{as(...,\dQuote{gpc.poly}}, and use primarily as a convenient internal function.  
+Given a vector indicating minimum and maximum latitude and longitudes, creates a rectangular polygon of class \code{gpc.poly}, which can then be used by other areal weighting functions.   This is simply a very thin wrapper for \code{as(...,'gpc.poly'}, and use primarily as a convenient internal function.  
 }
 \usage{
 gc2gpc(bounds)

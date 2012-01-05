@@ -3,7 +3,11 @@
 #ab.areal.interp: A wrapper for mult.arealw and dp.interp - lets one
 #go from targets and zones to interpolated values in one function.  
 
-ab.areal.interp <- function(target.ind="all", targetlist=firepgpc, trim=TRUE, recvar = 1, recvals = bgvals, zones = cabggpc, zbbmat = cabgbbmat, zoneareas=rbgarea, appdam=TRUE, dr=damrats, twokcensus=TRUE, digits=6, nobounds=FALSE, keepwts=TRUE,verbose=2){
+ab.areal.interp <- function(target.ind="all", targetlist,#=firepgpc, 
+	trim=TRUE, 
+	recvar = 1, recvals = bgvals, zones = cabggpc, zbbmat = cabgbbmat, 
+	zoneareas=rbgarea, appdam=TRUE, dr=damrats, twokcensus=TRUE, digits=6, 
+	nobounds=FALSE, keepwts=TRUE,verbose=2){
 
 #find weights:
 
